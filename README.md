@@ -32,7 +32,7 @@ git clone https://github.com/Sakaki/docker_django_test.git
 docker-compose up -d
 ```
 
-Djangoプロジェクトは初期状態なのでほとんど何もできませんが、 http://localhost:5000/admin から[管理画面](http://localhost:5000/admin)にアクセスできます。
+Djangoプロジェクトは初期状態なのでほとんど何もできませんが、migrateを実行すれば http://localhost:5000/admin から[管理画面](http://localhost:5000/admin)にアクセスできます。
 
 ## Migrate
 
