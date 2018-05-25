@@ -29,6 +29,7 @@ uWSGIの設定については uwsgi_conf.ini を参照してください。
 
 ```
 git clone https://github.com/Sakaki/docker_django_test.git
+cd docker_django_test
 docker-compose up -d
 ```
 
