@@ -37,7 +37,7 @@ Djangoプロジェクトは初期状態なのでほとんど何もできませ�
 ## Migrate
 
 ```
-$ docker-compose exec -it uwsgi /bin/ash
+$ docker-compose exec uwsgi /bin/ash
 /code # source /venv/bin/activate
 (venv) /code # python manage.py migrate --settings=dockerized_project.settings.production
 ```
