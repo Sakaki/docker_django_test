@@ -5,9 +5,9 @@ services:
     build:
       context: .
     environment:
-      - DJANGO_SETTINGS_MODULE=dockerized_project.settings.production
+      - DJANGO_SETTINGS_MODULE=project.settings.production
     volumes:
-      - ./docker_volumes/static:/code/dockerized_project/static
+      - ./docker_volumes/static:/code/project/static
  
   db:
     image: mysql:5.7
